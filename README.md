@@ -28,16 +28,15 @@ A PHP-based subscription system that allows users to register via email to recei
 
 ## 📂 File Structure
 
-xkcd-comic-subscriber/
-├── index.php # Email registration + verification
-├── unsubscribe.php # Unsubscribe via code verification
-├── cron.php # Sends XKCD comics to subscribers
-├── setup_cron.sh # Adds cron job for daily delivery
-├── functions.php # Core business logic
-├── registered_emails.txt # Local email storage
-├── screenshots/ # UI screenshots
-└── README.md # This file
-
+laugh-with-us/
+1. index.php # Email registration + verification
+2. unsubscribe.php # Unsubscribe via code verification
+3. cron.php # Sends XKCD comics to subscribers
+4. setup_cron.sh # Adds cron job for daily delivery
+5. functions.php # Core business logic
+6. registered_emails.txt # Local email storage
+7. Screenshots/ # UI screenshots
+8. README.md # This file
 
 ---
 
