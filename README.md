@@ -97,10 +97,10 @@ mailpit
 ```bash
 bash setup_cron.sh
 ```
-🧪 Testing Email Delivery
+## 🧪 Testing Email Delivery
 Emails can be viewed locally at ```http://localhost:8025``` (Mailpit UI).
 
-🧼 Notes
+## 🧼 Notes
 Email format strictly follows:
 
 Your Verification Code
@@ -116,7 +116,7 @@ No database used. All emails stored in registered_emails.txt
 Diptaraj Sinha
 [GitHub](https://github.com/DiptarajSinha) | [LinkedIn](https://www.linkedin.com/in/diptaraj-sinha-b2270b256/)
 
-🏁 License
+## 🏁 License
 This project is for educational/demo purposes only. No copyright infringement intended.
 
 ---
