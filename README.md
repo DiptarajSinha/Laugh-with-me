@@ -22,7 +22,7 @@ A PHP-based subscription system that allows users to register via email to recei
 
 | Registration Form | Comics | Unsubscribe |
 |-------------------|--------------------|-------------|
-| ![](Screenshots/register.png) | ![](Screenshots/mailpit.png) | ![](screenshots/unsubscribe.png) |
+| ![](Screenshots/register.png) | ![](Screenshots/mailpit.png) | ![](Screenshots/unsubscribe.png) |
 
 ---
 
@@ -78,32 +78,34 @@ xkcd-comic-subscriber/
 ```bash
 git clone https://github.com/DiptarajSinha/laugh-with-me.git
 cd laugh-with-me
-
+```
 2. Start PHP server:
 
-bash
+```bash
 Copy
 Edit
 php -S localhost:8000
-
+```
 3. Open browser:
+ ```
 http://localhost:8000/index.php
-
+```
 4. Start Mailpit in a new terminal:
 
-bash
+```bash
 Copy
 Edit
 mailpit
-
+```
 5. Setup CRON:
 
-bash
+```bash
 Copy
 Edit
 bash setup_cron.sh
+```
 🧪 Testing Email Delivery
-Emails can be viewed locally at http://localhost:8025 (Mailpit UI).
+Emails can be viewed locally at ```http://localhost:8025``` (Mailpit UI).
 
 🧼 Notes
 Email format strictly follows:
@@ -128,18 +130,3 @@ Copy
 Edit
 
 ---
-
-## ✅ Next Steps
-
-1. Create a new GitHub repo: `xkcd-comic-subscriber`
-2. Paste all your files and folders into it
-3. Add the `README.md` above
-4. Upload your screenshots inside a `/screenshots` folder
-5. Push your repo to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit - XKCD email system"
-git remote add origin https://github.com/your-username/xkcd-comic-subscriber.git
-git push -u origin main
