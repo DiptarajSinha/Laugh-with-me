@@ -35,7 +35,7 @@ xkcd-comic-subscriber/
 ├── setup_cron.sh # Adds cron job for daily delivery
 ├── functions.php # Core business logic
 ├── registered_emails.txt # Local email storage
-├── screenshots/ # (Optional) UI screenshots
+├── screenshots/ # UI screenshots
 └── README.md # This file
 
 
@@ -78,3 +78,68 @@ xkcd-comic-subscriber/
 ```bash
 git clone https://github.com/DiptarajSinha/laugh-with-me.git
 cd laugh-with-me
+
+2. Start PHP server:
+
+bash
+Copy
+Edit
+php -S localhost:8000
+
+3. Open browser:
+http://localhost:8000/index.php
+
+4. Start Mailpit in a new terminal:
+
+bash
+Copy
+Edit
+mailpit
+
+5. Setup CRON:
+
+bash
+Copy
+Edit
+bash setup_cron.sh
+🧪 Testing Email Delivery
+Emails can be viewed locally at http://localhost:8025 (Mailpit UI).
+
+🧼 Notes
+Email format strictly follows:
+
+Your Verification Code
+
+Your XKCD Comic (with <h2>, <img>, and unsubscribe link)
+
+Confirm Un-subscription
+
+No database used. All emails stored in registered_emails.txt
+
+🙋‍♂️ Author
+Diptaraj Sinha
+GitHub | LinkedIn
+
+🏁 License
+This project is for educational/demo purposes only. No copyright infringement intended.
+
+yaml
+Copy
+Edit
+
+---
+
+## ✅ Next Steps
+
+1. Create a new GitHub repo: `xkcd-comic-subscriber`
+2. Paste all your files and folders into it
+3. Add the `README.md` above
+4. Upload your screenshots inside a `/screenshots` folder
+5. Push your repo to GitHub
+
+```bash
+git init
+git add .
+git commit -m "Initial commit - XKCD email system"
+git remote add origin https://github.com/your-username/xkcd-comic-subscriber.git
+git push -u origin main
