@@ -81,8 +81,6 @@ cd laugh-with-me
 2. Start PHP server:
 
 ```bash
-Copy
-Edit
 php -S localhost:8000
 ```
 3. Open browser:
@@ -92,15 +90,11 @@ http://localhost:8000/index.php
 4. Start Mailpit in a new terminal:
 
 ```bash
-Copy
-Edit
 mailpit
 ```
 5. Setup CRON:
 
 ```bash
-Copy
-Edit
 bash setup_cron.sh
 ```
 🧪 Testing Email Delivery
@@ -111,21 +105,18 @@ Email format strictly follows:
 
 Your Verification Code
 
-Your XKCD Comic (with <h2>, <img>, and unsubscribe link)
+Your XKCD Comic (with header, comic image, and unsubscribe link)
 
 Confirm Un-subscription
 
 No database used. All emails stored in registered_emails.txt
+.
+### 🙋‍♂️ Author
 
-🙋‍♂️ Author
 Diptaraj Sinha
-GitHub | LinkedIn
+[GitHub](https://github.com/DiptarajSinha) | [LinkedIn](https://www.linkedin.com/in/diptaraj-sinha-b2270b256/)
 
 🏁 License
 This project is for educational/demo purposes only. No copyright infringement intended.
-
-yaml
-Copy
-Edit
 
 ---
